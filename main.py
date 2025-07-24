@@ -47,7 +47,7 @@ def run_test_case(executable: Path, input_file: Path, expected_file: Path, silen
     success = actual_output == expected_output
     if not silent or not success:
         status = "SUCCESS" if success else "FAILED"
-        message = f"{index}. {status} in {elapsed_ms}ms"
+        message = f"{index}. {status} {input_file.stem} in {elapsed_ms}ms"
         if not success:
             message += f"\nExpected: {expected_output}\nReceived: {actual_output}"
         print(message)

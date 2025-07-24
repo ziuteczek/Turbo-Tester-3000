@@ -1,4 +1,4 @@
-# Turbo Testing 3000
+z# Turbo Testing 3000
 
 Turbo Testing 3000 is a command-line utility for automated testing of executable programs against multiple input/output test cases. It is designed to streamline the process of validating program correctness and performance, especially useful for competitive programming, algorithm challenges, or batch testing.
 
@@ -13,7 +13,7 @@ Turbo Testing 3000 is a command-line utility for automated testing of executable
 ## Usage
 
 ```sh
-main.exe
+turbo.exe
 ```
 
 ### Arguments
@@ -32,13 +32,16 @@ main.exe
 ## Example
 
 ```
-/Turbo Testing 3000/
 ├── main.py
 ├── in/
 │   ├── test1.in
+│   ├── test1a.in
+│   ├── test1az.in
 │   └── test2.in
 ├── out/
 │   ├── test1.out
+│   ├── test1a.out
+│   ├── test1az.out
 │   └── test2.out
 ```
 
@@ -54,3 +57,4 @@ For each test case, the script prints whether it succeeded or failed, along with
 ## License
 
 MIT License
+
