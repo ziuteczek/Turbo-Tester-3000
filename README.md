@@ -1,4 +1,4 @@
-z# Turbo Testing 3000
+# Turbo Testing 3000
 
 Turbo Testing 3000 is a command-line utility for automated testing of executable programs against multiple input/output test cases. It is designed to streamline the process of validating program correctness and performance, especially useful for competitive programming, algorithm challenges, or batch testing.
 
